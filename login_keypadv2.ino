@@ -23,7 +23,7 @@ int code_try[3];
 bool Login(){
   bool change = 0;
   
-  for (int n = 0; n > 2;) {
+  for (int n = 0; n < 3;) {
     if (keypad.getState() == IDLE || keypad.getState() == RELEASED) {
       change = 1;
     }
