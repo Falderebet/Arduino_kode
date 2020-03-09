@@ -40,6 +40,9 @@ void Information() {
       lcd.setCursor(5,1);
       lcd.print(gas_value);
     }
+    if (key == "0") {
+      break;
+    }
     
   if (key == "0") {
     break;
