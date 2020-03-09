@@ -37,6 +37,7 @@ void Information() {
       lcd.clear();
       delay(100);
       lcd.print("The gas Value is: ");
+      lcd.setCursor(5,1);
       lcd.print(gas_value);
     }
     
